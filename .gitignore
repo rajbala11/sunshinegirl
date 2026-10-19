@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+build/
+.vite/
+
+# CDK
+infra/cdk.out/
+cdk.out/
+*.js.map
+
+# Env & credentials — NEVER commit
+.env
+.env.*
+*.pem
+aws-credentials*
+.aws/
+
+# Eval outputs
+eval/results/*.json
+eval/results/*.html
+
+# OS
+.DS_Store
+
+# CDK local context cache (contains account id / hosted zone id)
+cdk.context.json
+infra/cdk.context.json
